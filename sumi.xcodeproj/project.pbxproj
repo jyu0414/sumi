@@ -12,6 +12,7 @@
 		B25DE6F8FDD68ECA36956164 /* Pods_sumi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F21F26F329A6BF963C3F96D /* Pods_sumi.framework */; };
 		BAB82FFF2415C94F0005ACB7 /* WebViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB82FFE2415C94F0005ACB7 /* WebViewHandler.swift */; };
 		BAB830012415C9C50005ACB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAB830002415C9C50005ACB7 /* GoogleService-Info.plist */; };
+		BAB830032415CC1F0005ACB7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB830022415CC1F0005ACB7 /* Login.swift */; };
 		BAD5C25B2414885F00A772FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5C25A2414885F00A772FD /* AppDelegate.swift */; };
 		BAD5C25D2414885F00A772FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5C25C2414885F00A772FD /* SceneDelegate.swift */; };
 		BAD5C25F2414885F00A772FD /* GameSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5C25E2414885F00A772FD /* GameSelector.swift */; };
@@ -53,6 +54,7 @@
 		AC4FDD545FF9F1B9D86A41CE /* Pods-sumi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumi.release.xcconfig"; path = "Target Support Files/Pods-sumi/Pods-sumi.release.xcconfig"; sourceTree = "<group>"; };
 		BAB82FFE2415C94F0005ACB7 /* WebViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewHandler.swift; sourceTree = "<group>"; };
 		BAB830002415C9C50005ACB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BAB830022415CC1F0005ACB7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		BAD5C2572414885F00A772FD /* sumi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sumi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD5C25A2414885F00A772FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAD5C25C2414885F00A772FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				BAD5C25E2414885F00A772FD /* GameSelector.swift */,
 				BAD5C28A24148B4200A772FD /* GameView.swift */,
+				BAB830022415CC1F0005ACB7 /* Login.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				BAD5C2912414F16F00A772FD /* TouchEventModel.swift in Sources */,
 				BAD5C28B24148B4200A772FD /* GameView.swift in Sources */,
 				BAD5C25F2414885F00A772FD /* GameSelector.swift in Sources */,
+				BAB830032415CC1F0005ACB7 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
