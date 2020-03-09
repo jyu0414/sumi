@@ -6,8 +6,10 @@ target 'sumi' do
   use_frameworks!
 
   # Pods for sumi
-  pod 'RealmSwift'
-  pod 'Kingfisher'
+  pod 'FirebaseCore'
+  pod 'FirebaseFirestore'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestoreSwift', '~> 0.2'
 
   target 'sumiTests' do
     inherit! :search_paths

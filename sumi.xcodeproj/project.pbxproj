@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347ECD8C138DFD561993C7AB /* Pods_sumi_sumiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BF7748A047E1FBB7C0318F /* Pods_sumi_sumiUITests.framework */; };
+		637317C87B6C66581D488335 /* Pods_sumiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAF40B55A90A3BFCFB6C713 /* Pods_sumiTests.framework */; };
+		B25DE6F8FDD68ECA36956164 /* Pods_sumi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F21F26F329A6BF963C3F96D /* Pods_sumi.framework */; };
+		BAB82FFF2415C94F0005ACB7 /* WebViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB82FFE2415C94F0005ACB7 /* WebViewHandler.swift */; };
+		BAB830012415C9C50005ACB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAB830002415C9C50005ACB7 /* GoogleService-Info.plist */; };
 		BAD5C25B2414885F00A772FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5C25A2414885F00A772FD /* AppDelegate.swift */; };
 		BAD5C25D2414885F00A772FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5C25C2414885F00A772FD /* SceneDelegate.swift */; };
 		BAD5C25F2414885F00A772FD /* GameSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5C25E2414885F00A772FD /* GameSelector.swift */; };
@@ -18,6 +23,7 @@
 		BAD5C28B24148B4200A772FD /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5C28A24148B4200A772FD /* GameView.swift */; };
 		BAD5C28F2414E49800A772FD /* InjectionScript.js in Resources */ = {isa = PBXBuildFile; fileRef = BAD5C28E2414E49800A772FD /* InjectionScript.js */; };
 		BAD5C2912414F16F00A772FD /* TouchEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5C2902414F16F00A772FD /* TouchEventModel.swift */; };
+		BAD5C2962414F6A800A772FD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5C2952414F6A800A772FD /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24FC7238ED2419DAEE87A4E8 /* Pods-sumi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumi.debug.xcconfig"; path = "Target Support Files/Pods-sumi/Pods-sumi.debug.xcconfig"; sourceTree = "<group>"; };
+		38211C63ABDF5E366846B0F8 /* Pods-sumiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumiTests.debug.xcconfig"; path = "Target Support Files/Pods-sumiTests/Pods-sumiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4ED0B67CAC79969E981F2653 /* Pods-sumiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumiTests.release.xcconfig"; path = "Target Support Files/Pods-sumiTests/Pods-sumiTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FA5093392876FCDD6E074B7 /* Pods-sumi-sumiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumi-sumiUITests.debug.xcconfig"; path = "Target Support Files/Pods-sumi-sumiUITests/Pods-sumi-sumiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79DCD81A7CD54FE17A6D486E /* Pods-sumi-sumiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumi-sumiUITests.release.xcconfig"; path = "Target Support Files/Pods-sumi-sumiUITests/Pods-sumi-sumiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F21F26F329A6BF963C3F96D /* Pods_sumi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4FDD545FF9F1B9D86A41CE /* Pods-sumi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumi.release.xcconfig"; path = "Target Support Files/Pods-sumi/Pods-sumi.release.xcconfig"; sourceTree = "<group>"; };
+		BAB82FFE2415C94F0005ACB7 /* WebViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewHandler.swift; sourceTree = "<group>"; };
+		BAB830002415C9C50005ACB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAD5C2572414885F00A772FD /* sumi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sumi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD5C25A2414885F00A772FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAD5C25C2414885F00A772FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +70,9 @@
 		BAD5C28A24148B4200A772FD /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		BAD5C28E2414E49800A772FD /* InjectionScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = InjectionScript.js; sourceTree = "<group>"; };
 		BAD5C2902414F16F00A772FD /* TouchEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEventModel.swift; sourceTree = "<group>"; };
+		BAD5C2952414F6A800A772FD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D1BF7748A047E1FBB7C0318F /* Pods_sumi_sumiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumi_sumiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAF40B55A90A3BFCFB6C713 /* Pods_sumiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25DE6F8FDD68ECA36956164 /* Pods_sumi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637317C87B6C66581D488335 /* Pods_sumiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347ECD8C138DFD561993C7AB /* Pods_sumi_sumiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		324E7D4B420E6BF7842B198C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F21F26F329A6BF963C3F96D /* Pods_sumi.framework */,
+				D1BF7748A047E1FBB7C0318F /* Pods_sumi_sumiUITests.framework */,
+				EEAF40B55A90A3BFCFB6C713 /* Pods_sumiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAD5C24E2414885E00A772FD = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +120,8 @@
 				BAD5C2702414886000A772FD /* sumiTests */,
 				BAD5C27B2414886000A772FD /* sumiUITests */,
 				BAD5C2582414885F00A772FD /* Products */,
+				F4BCF6901309A37083DC8D2A /* Pods */,
+				324E7D4B420E6BF7842B198C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,16 +138,15 @@
 		BAD5C2592414885F00A772FD /* sumi */ = {
 			isa = PBXGroup;
 			children = (
-				BAD5C25A2414885F00A772FD /* AppDelegate.swift */,
-				BAD5C25C2414885F00A772FD /* SceneDelegate.swift */,
-				BAD5C25E2414885F00A772FD /* GameSelector.swift */,
-				BAD5C28A24148B4200A772FD /* GameView.swift */,
+				BAD5C2922414F65500A772FD /* Shared */,
+				BAD5C2932414F66500A772FD /* View */,
+				BAD5C2942414F67600A772FD /* Model */,
 				BAD5C2602414886000A772FD /* Assets.xcassets */,
 				BAD5C2652414886000A772FD /* LaunchScreen.storyboard */,
 				BAD5C2682414886000A772FD /* Info.plist */,
 				BAD5C2622414886000A772FD /* Preview Content */,
+				BAB830002415C9C50005ACB7 /* GoogleService-Info.plist */,
 				BAD5C28E2414E49800A772FD /* InjectionScript.js */,
-				BAD5C2902414F16F00A772FD /* TouchEventModel.swift */,
 			);
 			path = sumi;
 			sourceTree = "<group>";
@@ -145,6 +177,47 @@
 			path = sumiUITests;
 			sourceTree = "<group>";
 		};
+		BAD5C2922414F65500A772FD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BAD5C25C2414885F00A772FD /* SceneDelegate.swift */,
+				BAD5C25A2414885F00A772FD /* AppDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BAD5C2932414F66500A772FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAD5C25E2414885F00A772FD /* GameSelector.swift */,
+				BAD5C28A24148B4200A772FD /* GameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAD5C2942414F67600A772FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAD5C2902414F16F00A772FD /* TouchEventModel.swift */,
+				BAD5C2952414F6A800A772FD /* Game.swift */,
+				BAB82FFE2415C94F0005ACB7 /* WebViewHandler.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4BCF6901309A37083DC8D2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24FC7238ED2419DAEE87A4E8 /* Pods-sumi.debug.xcconfig */,
+				AC4FDD545FF9F1B9D86A41CE /* Pods-sumi.release.xcconfig */,
+				5FA5093392876FCDD6E074B7 /* Pods-sumi-sumiUITests.debug.xcconfig */,
+				79DCD81A7CD54FE17A6D486E /* Pods-sumi-sumiUITests.release.xcconfig */,
+				38211C63ABDF5E366846B0F8 /* Pods-sumiTests.debug.xcconfig */,
+				4ED0B67CAC79969E981F2653 /* Pods-sumiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAD5C2812414886000A772FD /* Build configuration list for PBXNativeTarget "sumi" */;
 			buildPhases = (
+				0048AB0F35845200869058BD /* [CP] Check Pods Manifest.lock */,
 				BAD5C2532414885E00A772FD /* Sources */,
 				BAD5C2542414885E00A772FD /* Frameworks */,
 				BAD5C2552414885E00A772FD /* Resources */,
+				70FE84A832053F3B87076D0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAD5C2842414886000A772FD /* Build configuration list for PBXNativeTarget "sumiTests" */;
 			buildPhases = (
+				FB623DE3244F0E1B7DAAFA20 /* [CP] Check Pods Manifest.lock */,
 				BAD5C2692414886000A772FD /* Sources */,
 				BAD5C26A2414886000A772FD /* Frameworks */,
 				BAD5C26B2414886000A772FD /* Resources */,
@@ -187,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAD5C2872414886000A772FD /* Build configuration list for PBXNativeTarget "sumiUITests" */;
 			buildPhases = (
+				425E7A22819E09C3593AC93D /* [CP] Check Pods Manifest.lock */,
 				BAD5C2742414886000A772FD /* Sources */,
 				BAD5C2752414886000A772FD /* Frameworks */,
 				BAD5C2762414886000A772FD /* Resources */,
+				D7DFB2C5B222ADC6B7FAA9FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +329,7 @@
 			files = (
 				BAD5C2672414886000A772FD /* LaunchScreen.storyboard in Resources */,
 				BAD5C28F2414E49800A772FD /* InjectionScript.js in Resources */,
+				BAB830012415C9C50005ACB7 /* GoogleService-Info.plist in Resources */,
 				BAD5C2642414886000A772FD /* Preview Assets.xcassets in Resources */,
 				BAD5C2612414886000A772FD /* Assets.xcassets in Resources */,
 			);
@@ -272,12 +351,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0048AB0F35845200869058BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sumi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		425E7A22819E09C3593AC93D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sumi-sumiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70FE84A832053F3B87076D0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sumi/Pods-sumi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sumi/Pods-sumi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sumi/Pods-sumi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7DFB2C5B222ADC6B7FAA9FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sumi-sumiUITests/Pods-sumi-sumiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sumi-sumiUITests/Pods-sumi-sumiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sumi-sumiUITests/Pods-sumi-sumiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB623DE3244F0E1B7DAAFA20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sumiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAD5C2532414885E00A772FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BAD5C25B2414885F00A772FD /* AppDelegate.swift in Sources */,
+				BAB82FFF2415C94F0005ACB7 /* WebViewHandler.swift in Sources */,
+				BAD5C2962414F6A800A772FD /* Game.swift in Sources */,
 				BAD5C25D2414885F00A772FD /* SceneDelegate.swift in Sources */,
 				BAD5C2912414F16F00A772FD /* TouchEventModel.swift in Sources */,
 				BAD5C28B24148B4200A772FD /* GameView.swift in Sources */,
@@ -444,6 +628,7 @@
 		};
 		BAD5C2822414886000A772FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FC7238ED2419DAEE87A4E8 /* Pods-sumi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +649,7 @@
 		};
 		BAD5C2832414886000A772FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4FDD545FF9F1B9D86A41CE /* Pods-sumi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +670,7 @@
 		};
 		BAD5C2852414886000A772FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38211C63ABDF5E366846B0F8 /* Pods-sumiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +693,7 @@
 		};
 		BAD5C2862414886000A772FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED0B67CAC79969E981F2653 /* Pods-sumiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +716,7 @@
 		};
 		BAD5C2882414886000A772FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA5093392876FCDD6E074B7 /* Pods-sumi-sumiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +737,7 @@
 		};
 		BAD5C2892414886000A772FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79DCD81A7CD54FE17A6D486E /* Pods-sumi-sumiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

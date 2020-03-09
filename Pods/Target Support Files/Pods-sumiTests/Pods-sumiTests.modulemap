@@ -1,0 +1,6 @@
+framework module Pods_sumiTests {
+  umbrella header "Pods-sumiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
